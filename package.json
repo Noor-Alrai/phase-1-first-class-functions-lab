@@ -34,4 +34,8 @@
     "mocha-jsdom": "~1.1.0",
     "mocha-multi": "1.0.1"
   }
+  , "scripts": {
+    "start": "SET NODE_ENV=dev && node server.js",
+    "test": "mocha --timeout 10000"
+  }
 }
